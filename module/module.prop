@@ -1,0 +1,8 @@
+id=XZ
+name=XtremeZram
+version=0.1 Pre_release
+versionCode=1
+author=@JossG0x01
+dev=JossG
+description=2.5Gb Zram 
+updateJson=https://raw.githubusercontent.com/JossG0x01/XtremeZram/main/update.json
