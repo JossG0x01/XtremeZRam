@@ -1,0 +1,19 @@
+#!/bin/sh
+#!!!
+
+#########################
+# /dev/block/zram0#
+# /sys/block/zram0/#
+#########################
+
+#Zram
+sleep=1;
+swapoff /dev/block/zram0;
+echo 1 > /sys/block/zram0/reset;
+
+#VRam
+echo 2560M > /sys/block/zram0/disksize;
+mkswap /dev/block/zram0;
+
+#Enable
+swapon /dev/block/zram0;
