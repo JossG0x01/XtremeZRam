@@ -1,0 +1,8 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+# disable blur
+# Ram data
+persist.sys.memfreeze.enable=true
+persist.sys.ui.hw=1
+persist.sys.purgeable_assets=1
